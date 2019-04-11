@@ -1,4 +1,8 @@
 # Starter pipeline
+- task: Rollout@3
+  inputs:
+    serviceEndpoint: '400abacf-352d-4d8b-9498-cfcef38bc353'
+    rollout: '99'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
