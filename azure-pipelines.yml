@@ -22,6 +22,6 @@ steps:
 - task: Rollout@3
   inputs:
     rollout: '0'
-    flag1: '555435354'
-    flag2: '4353453'
-    flag3: '3424234'
+    flag1: '3333'
+    flag2: 'flag_name312312'
+    flag3: 'flag_name12313'
