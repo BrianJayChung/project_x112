@@ -13,6 +13,13 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
+- task: Rollout@3
+  inputs:
+    rollout: '0'
+    flag1: 'flag_na123'
+    flag2: 'flag_name3213312'
+    flag3: 'flag_name3333333'
+
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
