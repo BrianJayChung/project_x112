@@ -23,5 +23,4 @@ steps:
   inputs:
     rollout: '0'
     flag1: '3333'
-    flag2: 'flag_nsff2312'
-    flag3: 'flag_name1444'
+    flag2: 'flag_ndf44'
