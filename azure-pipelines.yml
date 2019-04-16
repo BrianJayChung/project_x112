@@ -18,10 +18,10 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-  
+
 - task: Rollout@3
   inputs:
     rollout: '0'
-    flag1: 'flag_na123'
-    flag2: 'flag_name3213312'
-    flag3: 'flag_name3333333'
+    flag1: '555435354'
+    flag2: '4353453'
+    flag3: '3424234'
