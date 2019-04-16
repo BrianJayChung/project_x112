@@ -24,3 +24,4 @@ steps:
     rollout: '0'
     flag1: '3333'
     flag2: 'flag_ndf44'
+    flag3: '123333'
