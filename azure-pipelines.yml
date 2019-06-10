@@ -1,6 +1,4 @@
 # Starter pipeline:
-
-
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -24,3 +22,9 @@ steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.0'
+
+- task: LD_build_task@3
+  inputs:
+    ld-api-connection: 'LD'
+    updateBy: 'flagkey'
+    flagsOn: 'show-widgets'
